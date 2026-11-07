@@ -1,0 +1,204 @@
+python,jit,n,workload,strategy,container,bulk,hit_rate,ns_per_op
+CPython-3.14.0,False,1000000,count,try_except,dict,False,0.0,130.17
+CPython-3.14.0,False,1000000,count,in_check,dict,False,0.0,76.18
+CPython-3.14.0,False,1000000,count,get,dict,False,0.0,86.33
+CPython-3.14.0,False,1000000,count,setdefault,dict,False,0.0,87.21
+CPython-3.14.0,False,1000000,count,walrus,dict,False,0.0,86.03
+CPython-3.14.0,False,1000000,count,defaultdict,defaultdict(int),False,0.0,102.36
+CPython-3.14.0,False,1000000,count,__missing__,ZeroDict,False,0.0,107.57
+CPython-3.14.0,False,1000000,count,Counter,Counter,False,0.0,128.51
+CPython-3.14.0,False,1000000,count,prefilled,prefilled 0,False,0.0,86.26
+CPython-3.14.0,False,1000000,count,Counter.update (bulk),Counter,True,0.0,60.26
+CPython-3.14.0,False,1000000,group,try_except,dict,False,0.0,162.85
+CPython-3.14.0,False,1000000,group,in_check,dict,False,0.0,113.94
+CPython-3.14.0,False,1000000,group,setdefault,dict,False,0.0,122.62
+CPython-3.14.0,False,1000000,group,get_or_setdefault,dict,False,0.0,134.53
+CPython-3.14.0,False,1000000,group,walrus,dict,False,0.0,130.49
+CPython-3.14.0,False,1000000,group,defaultdict,defaultdict(list),False,0.0,132.65
+CPython-3.14.0,False,1000000,group,__missing__,ListDict,False,0.0,143.36
+CPython-3.14.0,False,1000000,group,prefilled,prefilled [],False,0.0,145.5
+CPython-3.14.0,False,1000000,memo,try_except,dict,False,0.0,259.71
+CPython-3.14.0,False,1000000,memo,in_check,dict,False,0.0,209.41
+CPython-3.14.0,False,1000000,memo,walrus,dict,False,0.0,219.39
+CPython-3.14.0,False,1000000,memo,setdefault,dict,False,0.0,227.79
+CPython-3.14.0,False,1000000,memo,__missing__,MemoDict,False,0.0,257.29
+CPython-3.14.0,False,1000000,memo,functools.cache,functools.cache,False,0.0,225.34
+CPython-3.14.0,False,1000000,memo,no_cache,dict,False,0.0,103.01
+CPython-3.14.0,False,1000000,control,get,defaultdict(int),False,0.0,99.84
+CPython-3.14.0,False,1000000,control,get,Counter,False,0.0,145.52
+CPython-3.14.0,False,1000000,control,get,ZeroDict,False,0.0,104.95
+CPython-3.14.0,False,1000000,baseline,empty_loop,dict,False,0.0,4.34
+CPython-3.14.0,False,1000000,count,try_except,dict,False,0.25,121.22
+CPython-3.14.0,False,1000000,count,in_check,dict,False,0.25,87.13
+CPython-3.14.0,False,1000000,count,get,dict,False,0.25,85.28
+CPython-3.14.0,False,1000000,count,setdefault,dict,False,0.25,89.48
+CPython-3.14.0,False,1000000,count,walrus,dict,False,0.25,84.15
+CPython-3.14.0,False,1000000,count,defaultdict,defaultdict(int),False,0.25,96.79
+CPython-3.14.0,False,1000000,count,__missing__,ZeroDict,False,0.25,105.08
+CPython-3.14.0,False,1000000,count,Counter,Counter,False,0.25,124.78
+CPython-3.14.0,False,1000000,count,prefilled,prefilled 0,False,0.25,94.26
+CPython-3.14.0,False,1000000,count,Counter.update (bulk),Counter,True,0.25,65.93
+CPython-3.14.0,False,1000000,group,try_except,dict,False,0.25,178.85
+CPython-3.14.0,False,1000000,group,in_check,dict,False,0.25,146.44
+CPython-3.14.0,False,1000000,group,setdefault,dict,False,0.25,137.88
+CPython-3.14.0,False,1000000,group,get_or_setdefault,dict,False,0.25,145.96
+CPython-3.14.0,False,1000000,group,walrus,dict,False,0.25,146.45
+CPython-3.14.0,False,1000000,group,defaultdict,defaultdict(list),False,0.25,144.7
+CPython-3.14.0,False,1000000,group,__missing__,ListDict,False,0.25,162.98
+CPython-3.14.0,False,1000000,group,prefilled,prefilled [],False,0.25,184.06
+CPython-3.14.0,False,1000000,memo,try_except,dict,False,0.25,244.45
+CPython-3.14.0,False,1000000,memo,in_check,dict,False,0.25,190.1
+CPython-3.14.0,False,1000000,memo,walrus,dict,False,0.25,185.46
+CPython-3.14.0,False,1000000,memo,setdefault,dict,False,0.25,216.67
+CPython-3.14.0,False,1000000,memo,__missing__,MemoDict,False,0.25,201.47
+CPython-3.14.0,False,1000000,memo,functools.cache,functools.cache,False,0.25,194.78
+CPython-3.14.0,False,1000000,memo,no_cache,dict,False,0.25,107.7
+CPython-3.14.0,False,1000000,control,get,defaultdict(int),False,0.25,86.17
+CPython-3.14.0,False,1000000,control,get,Counter,False,0.25,104.31
+CPython-3.14.0,False,1000000,control,get,ZeroDict,False,0.25,85.3
+CPython-3.14.0,False,1000000,baseline,empty_loop,dict,False,0.25,4.73
+CPython-3.14.0,False,1000000,count,try_except,dict,False,0.5,81.82
+CPython-3.14.0,False,1000000,count,in_check,dict,False,0.5,62.76
+CPython-3.14.0,False,1000000,count,get,dict,False,0.5,61.86
+CPython-3.14.0,False,1000000,count,setdefault,dict,False,0.5,64.72
+CPython-3.14.0,False,1000000,count,walrus,dict,False,0.5,64.39
+CPython-3.14.0,False,1000000,count,defaultdict,defaultdict(int),False,0.5,68.78
+CPython-3.14.0,False,1000000,count,__missing__,ZeroDict,False,0.5,69.94
+CPython-3.14.0,False,1000000,count,Counter,Counter,False,0.5,91.64
+CPython-3.14.0,False,1000000,count,prefilled,prefilled 0,False,0.5,57.25
+CPython-3.14.0,False,1000000,count,Counter.update (bulk),Counter,True,0.5,43.68
+CPython-3.14.0,False,1000000,group,try_except,dict,False,0.5,145.3
+CPython-3.14.0,False,1000000,group,in_check,dict,False,0.5,118.33
+CPython-3.14.0,False,1000000,group,setdefault,dict,False,0.5,115.0
+CPython-3.14.0,False,1000000,group,get_or_setdefault,dict,False,0.5,119.98
+CPython-3.14.0,False,1000000,group,walrus,dict,False,0.5,118.93
+CPython-3.14.0,False,1000000,group,defaultdict,defaultdict(list),False,0.5,113.92
+CPython-3.14.0,False,1000000,group,__missing__,ListDict,False,0.5,119.02
+CPython-3.14.0,False,1000000,group,prefilled,prefilled [],False,0.5,124.33
+CPython-3.14.0,False,1000000,memo,try_except,dict,False,0.5,147.11
+CPython-3.14.0,False,1000000,memo,in_check,dict,False,0.5,127.22
+CPython-3.14.0,False,1000000,memo,walrus,dict,False,0.5,147.36
+CPython-3.14.0,False,1000000,memo,setdefault,dict,False,0.5,187.15
+CPython-3.14.0,False,1000000,memo,__missing__,MemoDict,False,0.5,139.15
+CPython-3.14.0,False,1000000,memo,functools.cache,functools.cache,False,0.5,164.92
+CPython-3.14.0,False,1000000,memo,no_cache,dict,False,0.5,107.62
+CPython-3.14.0,False,1000000,control,get,defaultdict(int),False,0.5,64.96
+CPython-3.14.0,False,1000000,control,get,Counter,False,0.5,85.07
+CPython-3.14.0,False,1000000,control,get,ZeroDict,False,0.5,64.48
+CPython-3.14.0,False,1000000,baseline,empty_loop,dict,False,0.5,3.9
+CPython-3.14.0,False,1000000,count,try_except,dict,False,0.75,54.6
+CPython-3.14.0,False,1000000,count,in_check,dict,False,0.75,47.77
+CPython-3.14.0,False,1000000,count,get,dict,False,0.75,45.04
+CPython-3.14.0,False,1000000,count,setdefault,dict,False,0.75,45.63
+CPython-3.14.0,False,1000000,count,walrus,dict,False,0.75,46.36
+CPython-3.14.0,False,1000000,count,defaultdict,defaultdict(int),False,0.75,48.36
+CPython-3.14.0,False,1000000,count,__missing__,ZeroDict,False,0.75,49.5
+CPython-3.14.0,False,1000000,count,Counter,Counter,False,0.75,71.09
+CPython-3.14.0,False,1000000,count,prefilled,prefilled 0,False,0.75,39.32
+CPython-3.14.0,False,1000000,count,Counter.update (bulk),Counter,True,0.75,30.7
+CPython-3.14.0,False,1000000,group,try_except,dict,False,0.75,93.38
+CPython-3.14.0,False,1000000,group,in_check,dict,False,0.75,80.03
+CPython-3.14.0,False,1000000,group,setdefault,dict,False,0.75,85.55
+CPython-3.14.0,False,1000000,group,get_or_setdefault,dict,False,0.75,83.54
+CPython-3.14.0,False,1000000,group,walrus,dict,False,0.75,86.81
+CPython-3.14.0,False,1000000,group,defaultdict,defaultdict(list),False,0.75,90.17
+CPython-3.14.0,False,1000000,group,__missing__,ListDict,False,0.75,87.52
+CPython-3.14.0,False,1000000,group,prefilled,prefilled [],False,0.75,82.33
+CPython-3.14.0,False,1000000,memo,try_except,dict,False,0.75,89.32
+CPython-3.14.0,False,1000000,memo,in_check,dict,False,0.75,85.47
+CPython-3.14.0,False,1000000,memo,walrus,dict,False,0.75,85.6
+CPython-3.14.0,False,1000000,memo,setdefault,dict,False,0.75,184.36
+CPython-3.14.0,False,1000000,memo,__missing__,MemoDict,False,0.75,93.16
+CPython-3.14.0,False,1000000,memo,functools.cache,functools.cache,False,0.75,120.98
+CPython-3.14.0,False,1000000,memo,no_cache,dict,False,0.75,104.15
+CPython-3.14.0,False,1000000,control,get,defaultdict(int),False,0.75,54.1
+CPython-3.14.0,False,1000000,control,get,Counter,False,0.75,71.83
+CPython-3.14.0,False,1000000,control,get,ZeroDict,False,0.75,49.93
+CPython-3.14.0,False,1000000,baseline,empty_loop,dict,False,0.75,3.57
+CPython-3.14.0,False,1000000,count,try_except,dict,False,0.9,38.12
+CPython-3.14.0,False,1000000,count,in_check,dict,False,0.9,38.47
+CPython-3.14.0,False,1000000,count,get,dict,False,0.9,34.59
+CPython-3.14.0,False,1000000,count,setdefault,dict,False,0.9,35.23
+CPython-3.14.0,False,1000000,count,walrus,dict,False,0.9,36.14
+CPython-3.14.0,False,1000000,count,defaultdict,defaultdict(int),False,0.9,35.78
+CPython-3.14.0,False,1000000,count,__missing__,ZeroDict,False,0.9,35.85
+CPython-3.14.0,False,1000000,count,Counter,Counter,False,0.9,58.28
+CPython-3.14.0,False,1000000,count,prefilled,prefilled 0,False,0.9,30.21
+CPython-3.14.0,False,1000000,count,Counter.update (bulk),Counter,True,0.9,22.09
+CPython-3.14.0,False,1000000,group,try_except,dict,False,0.9,56.09
+CPython-3.14.0,False,1000000,group,in_check,dict,False,0.9,52.23
+CPython-3.14.0,False,1000000,group,setdefault,dict,False,0.9,61.69
+CPython-3.14.0,False,1000000,group,get_or_setdefault,dict,False,0.9,57.32
+CPython-3.14.0,False,1000000,group,walrus,dict,False,0.9,56.76
+CPython-3.14.0,False,1000000,group,defaultdict,defaultdict(list),False,0.9,52.94
+CPython-3.14.0,False,1000000,group,__missing__,ListDict,False,0.9,56.4
+CPython-3.14.0,False,1000000,group,prefilled,prefilled [],False,0.9,52.96
+CPython-3.14.0,False,1000000,memo,try_except,dict,False,0.9,42.69
+CPython-3.14.0,False,1000000,memo,in_check,dict,False,0.9,43.64
+CPython-3.14.0,False,1000000,memo,walrus,dict,False,0.9,45.24
+CPython-3.14.0,False,1000000,memo,setdefault,dict,False,0.9,135.62
+CPython-3.14.0,False,1000000,memo,__missing__,MemoDict,False,0.9,42.62
+CPython-3.14.0,False,1000000,memo,functools.cache,functools.cache,False,0.9,55.0
+CPython-3.14.0,False,1000000,memo,no_cache,dict,False,0.9,99.49
+CPython-3.14.0,False,1000000,control,get,defaultdict(int),False,0.9,38.15
+CPython-3.14.0,False,1000000,control,get,Counter,False,0.9,56.92
+CPython-3.14.0,False,1000000,control,get,ZeroDict,False,0.9,37.87
+CPython-3.14.0,False,1000000,baseline,empty_loop,dict,False,0.9,2.79
+CPython-3.14.0,False,1000000,count,try_except,dict,False,0.99,24.61
+CPython-3.14.0,False,1000000,count,in_check,dict,False,0.99,28.16
+CPython-3.14.0,False,1000000,count,get,dict,False,0.99,24.35
+CPython-3.14.0,False,1000000,count,setdefault,dict,False,0.99,24.79
+CPython-3.14.0,False,1000000,count,walrus,dict,False,0.99,24.82
+CPython-3.14.0,False,1000000,count,defaultdict,defaultdict(int),False,0.99,24.14
+CPython-3.14.0,False,1000000,count,__missing__,ZeroDict,False,0.99,25.08
+CPython-3.14.0,False,1000000,count,Counter,Counter,False,0.99,43.2
+CPython-3.14.0,False,1000000,count,prefilled,prefilled 0,False,0.99,23.55
+CPython-3.14.0,False,1000000,count,Counter.update (bulk),Counter,True,0.99,15.68
+CPython-3.14.0,False,1000000,group,try_except,dict,False,0.99,22.27
+CPython-3.14.0,False,1000000,group,in_check,dict,False,0.99,26.57
+CPython-3.14.0,False,1000000,group,setdefault,dict,False,0.99,29.71
+CPython-3.14.0,False,1000000,group,get_or_setdefault,dict,False,0.99,27.21
+CPython-3.14.0,False,1000000,group,walrus,dict,False,0.99,28.62
+CPython-3.14.0,False,1000000,group,defaultdict,defaultdict(list),False,0.99,23.36
+CPython-3.14.0,False,1000000,group,__missing__,ListDict,False,0.99,23.13
+CPython-3.14.0,False,1000000,group,prefilled,prefilled [],False,0.99,23.6
+CPython-3.14.0,False,1000000,memo,try_except,dict,False,0.99,15.32
+CPython-3.14.0,False,1000000,memo,in_check,dict,False,0.99,19.52
+CPython-3.14.0,False,1000000,memo,walrus,dict,False,0.99,20.23
+CPython-3.14.0,False,1000000,memo,setdefault,dict,False,0.99,109.95
+CPython-3.14.0,False,1000000,memo,__missing__,MemoDict,False,0.99,15.85
+CPython-3.14.0,False,1000000,memo,functools.cache,functools.cache,False,0.99,25.1
+CPython-3.14.0,False,1000000,memo,no_cache,dict,False,0.99,89.57
+CPython-3.14.0,False,1000000,control,get,defaultdict(int),False,0.99,27.69
+CPython-3.14.0,False,1000000,control,get,Counter,False,0.99,46.71
+CPython-3.14.0,False,1000000,control,get,ZeroDict,False,0.99,28.34
+CPython-3.14.0,False,1000000,baseline,empty_loop,dict,False,0.99,2.42
+CPython-3.14.0,False,1000000,count,try_except,dict,False,1.0,18.54
+CPython-3.14.0,False,1000000,count,in_check,dict,False,1.0,24.72
+CPython-3.14.0,False,1000000,count,get,dict,False,1.0,20.12
+CPython-3.14.0,False,1000000,count,setdefault,dict,False,1.0,21.03
+CPython-3.14.0,False,1000000,count,walrus,dict,False,1.0,21.05
+CPython-3.14.0,False,1000000,count,defaultdict,defaultdict(int),False,1.0,19.87
+CPython-3.14.0,False,1000000,count,__missing__,ZeroDict,False,1.0,19.9
+CPython-3.14.0,False,1000000,count,Counter,Counter,False,1.0,39.31
+CPython-3.14.0,False,1000000,count,prefilled,prefilled 0,False,1.0,18.07
+CPython-3.14.0,False,1000000,count,Counter.update (bulk),Counter,True,1.0,11.89
+CPython-3.14.0,False,1000000,group,try_except,dict,False,1.0,9.79
+CPython-3.14.0,False,1000000,group,in_check,dict,False,1.0,14.5
+CPython-3.14.0,False,1000000,group,setdefault,dict,False,1.0,18.17
+CPython-3.14.0,False,1000000,group,get_or_setdefault,dict,False,1.0,14.54
+CPython-3.14.0,False,1000000,group,walrus,dict,False,1.0,15.02
+CPython-3.14.0,False,1000000,group,defaultdict,defaultdict(list),False,1.0,10.68
+CPython-3.14.0,False,1000000,group,__missing__,ListDict,False,1.0,10.71
+CPython-3.14.0,False,1000000,group,prefilled,prefilled [],False,1.0,9.51
+CPython-3.14.0,False,1000000,memo,try_except,dict,False,1.0,7.41
+CPython-3.14.0,False,1000000,memo,in_check,dict,False,1.0,11.73
+CPython-3.14.0,False,1000000,memo,walrus,dict,False,1.0,12.13
+CPython-3.14.0,False,1000000,memo,setdefault,dict,False,1.0,86.04
+CPython-3.14.0,False,1000000,memo,__missing__,MemoDict,False,1.0,8.06
+CPython-3.14.0,False,1000000,memo,functools.cache,functools.cache,False,1.0,17.17
+CPython-3.14.0,False,1000000,memo,no_cache,dict,False,1.0,75.49
+CPython-3.14.0,False,1000000,control,get,defaultdict(int),False,1.0,24.2
+CPython-3.14.0,False,1000000,control,get,Counter,False,1.0,43.56
+CPython-3.14.0,False,1000000,control,get,ZeroDict,False,1.0,24.63
+CPython-3.14.0,False,1000000,baseline,empty_loop,dict,False,1.0,2.32

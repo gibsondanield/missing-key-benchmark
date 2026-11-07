@@ -1,0 +1,14 @@
+[project]
+name = "missing-key-benchmark"
+version = "0.1.0"
+description = "Benchmarking the ways to update a Python dict key that may not exist yet: get, setdefault, try/except, defaultdict, Counter and more."
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib>=3.10.8",
+    "pandas>=2.3.3",
+]
+
+[dependency-groups]
+dev = [
+    "ipython>=9.7.0",
+]
